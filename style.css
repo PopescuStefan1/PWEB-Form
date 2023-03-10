@@ -1,5 +1,38 @@
-body{
+body {
     background-image: url(pexels-rodnae-productions-7978810.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    color: white;
+    font-family: 'Dancing Script', cursive;
+    font-size: 24px;
+}
+
+label, input, select, textarea{
+    margin-bottom: 10px;
+}
+
+select{
+    font-family: 'Dancing Script', cursive;
+    font-size: 20px;
+}
+
+button{
+    width: 100px;
+    height: 40px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 24px;
+    color: white;
+    background-color: darkred;
+    border-radius: 12px;
+}
+
+.inscriere{
+    font-size: 48px;
+    font-weight: 700px;
 }
